@@ -7,7 +7,7 @@ import java.util.Random;
 
 @Service
 public class NoteService {
-    public List<Note> noteList = new ArrayList<>();
+    private List<Note> noteList = new ArrayList<>();
 
     public long createId() {
         return new Random().nextLong();
